@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    text-align: center; /* Center align text */
 }
 
 a {
@@ -150,6 +151,37 @@ nav ul li a:hover {
 
 .shop-links img:hover {
     transform: scale(1.05); /* Optional: Scale up on hover */
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* About section styles */
+.about-section {
+    padding: 40px 20px;
+    background-size: cover;
+    background-position: center;
+    color: #121621;
+}
+
+#lunabelle {
+    background-image: url('Lunabelle-background-img.png');
+}
+
+#chimi-eyewear {
+    background-image: url('chimi-eyewear-background-img.png');
+}
+
+#golden-concept {
+    background-image: url('golden-concepts-background-img.png');
+}
+
+.about-section h3 {
+    font-size: 2.5em; /* Make headings larger */
+    color: black; /* Make headings black */
 }
 
 /* Footer styles */
